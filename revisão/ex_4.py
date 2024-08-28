@@ -1,4 +1,5 @@
-
+imc = calcular =imc(peso )
+print(f'Seu imc é: {imc:.2f}')
 
 classificacao = (f"{nome} está com anorexia."  if  imc  < 17 else
                 f"{nome} está abaixo do peso" imc < 18.5 else
